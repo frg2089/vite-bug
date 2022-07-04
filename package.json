@@ -1,3 +1,6 @@
 {
-  "name": "vite-bug"
+  "name": "vite-bug",
+  "devDependencies": {
+    "vite": "^2.9.13"
+  }
 }

@@ -12,6 +12,54 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@microsoft/fast-colors@npm:^5.3.0":
+  version: 5.3.1
+  resolution: "@microsoft/fast-colors@npm:5.3.1"
+  checksum: e4673f961af82bb654f6e5cb483753ee6f42c1f0106ab8ea478847d02243abf6cb162cbbaa6fd54e5704343444e57605a6cf9f341621322ae09469f4ba179052
+  languageName: node
+  linkType: hard
+
+"@microsoft/fast-components@npm:^2.30.6":
+  version: 2.30.6
+  resolution: "@microsoft/fast-components@npm:2.30.6"
+  dependencies:
+    "@microsoft/fast-colors": ^5.3.0
+    "@microsoft/fast-element": ^1.10.1
+    "@microsoft/fast-foundation": ^2.46.2
+    "@microsoft/fast-web-utilities": ^5.4.1
+    tslib: ^1.13.0
+  checksum: eac6d3340d89e4a734bccaec6e3fdd8e0500635e5b37437b115635305c5bdf9ce25e7111ff8e68a3d2a1cb8e1ca1b1ef8c39a76e95beffd1ddf5b79b0a55c923
+  languageName: node
+  linkType: hard
+
+"@microsoft/fast-element@npm:^1.10.1, @microsoft/fast-element@npm:^1.10.2":
+  version: 1.10.2
+  resolution: "@microsoft/fast-element@npm:1.10.2"
+  checksum: 9746b7fe5a85ed5f7ae7675fe4cdd97e98e2a10091c893e7f225c5f3c883bd5c7090cf224d3d739f2dabfea45b05ca23298bc096ec12d50076bc67ba37470f27
+  languageName: node
+  linkType: hard
+
+"@microsoft/fast-foundation@npm:^2.46.2":
+  version: 2.46.9
+  resolution: "@microsoft/fast-foundation@npm:2.46.9"
+  dependencies:
+    "@microsoft/fast-element": ^1.10.2
+    "@microsoft/fast-web-utilities": ^5.4.1
+    tabbable: ^5.2.0
+    tslib: ^1.13.0
+  checksum: 593156a0871fb6bfa4ed6e54a00c0efafd2274e33f640b1056500b8dd34b1abd46b15a2fe5251dc8b3eecef73f33098535d412b220a49237f17f0d48a4306bf3
+  languageName: node
+  linkType: hard
+
+"@microsoft/fast-web-utilities@npm:^5.4.1":
+  version: 5.4.1
+  resolution: "@microsoft/fast-web-utilities@npm:5.4.1"
+  dependencies:
+    exenv-es6: ^1.1.1
+  checksum: fa4679567488e1b16510bdedf2a24da956ca86502ecf8ade435540aa7d16cb19a081e2340b19fcc9687ec581d12c6557088e47c93cb0c2456add993b1fe3d4e5
+  languageName: node
+  linkType: hard
+
 "@npmcli/fs@npm:^2.1.0":
   version: 2.1.0
   resolution: "@npmcli/fs@npm:2.1.0"
@@ -453,6 +501,13 @@ __metadata:
   bin:
     esbuild: bin/esbuild
   checksum: 88223e8446789b5b9f0e2f89e1012c84e4cee12a3c4b990da835ea37625d0ac1d8d3fbf20c5d1151951449928539fcdca9daecfc41db4b87457ec54dcb905fd0
+  languageName: node
+  linkType: hard
+
+"exenv-es6@npm:^1.1.1":
+  version: 1.1.1
+  resolution: "exenv-es6@npm:1.1.1"
+  checksum: 1391e8075e5d108b83c8ac57f16dd2b464d130daca3cc2ade6d63cbdc136886cae61f826f4ab57da6f6839b68363699b7b89bc1cdcc3d446ba66d9c2b048f186
   languageName: node
   linkType: hard
 
@@ -1149,6 +1204,13 @@ resolve@^1.22.0:
   languageName: node
   linkType: hard
 
+"tabbable@npm:^5.2.0":
+  version: 5.3.3
+  resolution: "tabbable@npm:5.3.3"
+  checksum: 011e9c47de59db7be6a5b467d78031889b246e54df671ff990f89728b2861ab346d9ec9468f4ec908a92a95a364fd50cd9e87068792fda6b06b673fefedcc883
+  languageName: node
+  linkType: hard
+
 "tar@npm:^6.1.11, tar@npm:^6.1.2":
   version: 6.1.11
   resolution: "tar@npm:6.1.11"
@@ -1160,6 +1222,13 @@ resolve@^1.22.0:
     mkdirp: ^1.0.3
     yallist: ^4.0.0
   checksum: f6cd9b0d7cfc2d715f28aa9911d244d91762dd905079988b1d549ea2c147281d7c9ab4adb590535665a80d5478518a0a8e8b7a9295b81043a9a1c180684f3a25
+  languageName: node
+  linkType: hard
+
+"tslib@npm:^1.13.0":
+  version: 1.14.1
+  resolution: "tslib@npm:1.14.1"
+  checksum: f44fe7f216946b17d3e3074df3746372703cf24e9127b4c045511456e8e4bf25515fb0a1bb3937676cc305651c5d4fcb6377b0588a4c6a957e748c4c28905d17
   languageName: node
   linkType: hard
 
@@ -1192,6 +1261,7 @@ resolve@^1.22.0:
   version: 0.0.0-use.local
   resolution: "vite-bug@workspace:."
   dependencies:
+    "@microsoft/fast-components": ^2.30.6
     vite: ^2.9.13
   languageName: unknown
   linkType: soft

@@ -2,5 +2,8 @@
   "name": "vite-bug",
   "devDependencies": {
     "vite": "^2.9.13"
+  },
+  "dependencies": {
+    "@microsoft/fast-components": "^2.30.6"
   }
 }
